@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface NSString (StringUtil)
+
 -(void)testHuiGun123;
 @end
