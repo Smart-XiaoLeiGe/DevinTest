@@ -83,6 +83,7 @@
 		03ACD27B1A1A0C6E0028DF2A /* DevinTest */ = {
 			isa = PBXGroup;
 			children = (
+				03ACD2A51A1A0D110028DF2A /* Global */,
 				03ACD2801A1A0C6E0028DF2A /* AppDelegate.h */,
 				03ACD2811A1A0C6E0028DF2A /* AppDelegate.m */,
 				03ACD2861A1A0C6E0028DF2A /* ViewController.h */,
@@ -120,6 +121,13 @@
 				03ACD29A1A1A0C6F0028DF2A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03ACD2A51A1A0D110028DF2A /* Global */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Global;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
