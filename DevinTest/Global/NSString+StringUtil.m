@@ -9,7 +9,7 @@
 #import "NSString+StringUtil.h"
 
 @implementation NSString (StringUtil)
--(void)testHuiGun
+-(void)testHuiGun123
 {
     
 }

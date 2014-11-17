@@ -10,5 +10,5 @@
 
 @interface NSString (StringUtil)
 
--(void)testHuiGun;
+-(void)testHuiGun123;
 @end
