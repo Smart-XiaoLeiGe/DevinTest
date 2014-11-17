@@ -10,5 +10,4 @@
 
 @interface NSString (StringUtil)
 
--(void)testHuiGun;
 @end

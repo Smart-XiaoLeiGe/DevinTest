@@ -9,8 +9,5 @@
 #import "NSString+StringUtil.h"
 
 @implementation NSString (StringUtil)
--(void)testHuiGun
-{
-    
-}
+
 @end
