@@ -15,6 +15,7 @@
 		03ACD28D1A1A0C6E0028DF2A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03ACD28C1A1A0C6E0028DF2A /* Images.xcassets */; };
 		03ACD2901A1A0C6E0028DF2A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03ACD28E1A1A0C6E0028DF2A /* LaunchScreen.xib */; };
 		03ACD29C1A1A0C6F0028DF2A /* DevinTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03ACD29B1A1A0C6F0028DF2A /* DevinTestTests.m */; };
+		03ACD2A81A1A1B400028DF2A /* NSString+StringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 03ACD2A71A1A1B400028DF2A /* NSString+StringUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		03ACD2951A1A0C6F0028DF2A /* DevinTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevinTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03ACD29A1A1A0C6F0028DF2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03ACD29B1A1A0C6F0028DF2A /* DevinTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DevinTestTests.m; sourceTree = "<group>"; };
+		03ACD2A61A1A1B400028DF2A /* NSString+StringUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+StringUtil.h"; sourceTree = "<group>"; };
+		03ACD2A71A1A1B400028DF2A /* NSString+StringUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+StringUtil.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +129,8 @@
 		03ACD2A51A1A0D110028DF2A /* Global */ = {
 			isa = PBXGroup;
 			children = (
+				03ACD2A61A1A1B400028DF2A /* NSString+StringUtil.h */,
+				03ACD2A71A1A1B400028DF2A /* NSString+StringUtil.m */,
 			);
 			path = Global;
 			sourceTree = "<group>";
@@ -231,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03ACD2821A1A0C6E0028DF2A /* AppDelegate.m in Sources */,
+				03ACD2A81A1A1B400028DF2A /* NSString+StringUtil.m in Sources */,
 				03ACD2851A1A0C6E0028DF2A /* DevinTest.xcdatamodeld in Sources */,
 				03ACD2881A1A0C6E0028DF2A /* ViewController.m in Sources */,
 				03ACD27F1A1A0C6E0028DF2A /* main.m in Sources */,
