@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIWebView *myWebView;
+@property (assign,nonatomic)NSString *myteststr;
 
 @end
 

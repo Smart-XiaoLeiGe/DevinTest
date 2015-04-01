@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03414B2A1A2C8AD100D1F578 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03414B291A2C8AD100D1F578 /* AVFoundation.framework */; };
 		03ACD27F1A1A0C6E0028DF2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03ACD27E1A1A0C6E0028DF2A /* main.m */; };
 		03ACD2821A1A0C6E0028DF2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03ACD2811A1A0C6E0028DF2A /* AppDelegate.m */; };
 		03ACD2851A1A0C6E0028DF2A /* DevinTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03ACD2831A1A0C6E0028DF2A /* DevinTest.xcdatamodeld */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03414B291A2C8AD100D1F578 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		03ACD2791A1A0C6E0028DF2A /* DevinTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevinTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03ACD27D1A1A0C6E0028DF2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03ACD27E1A1A0C6E0028DF2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -52,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03414B2A1A2C8AD100D1F578 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +71,7 @@
 		03ACD2701A1A0C6E0028DF2A = {
 			isa = PBXGroup;
 			children = (
+				03414B291A2C8AD100D1F578 /* AVFoundation.framework */,
 				03ACD27B1A1A0C6E0028DF2A /* DevinTest */,
 				03ACD2981A1A0C6F0028DF2A /* DevinTestTests */,
 				03ACD27A1A1A0C6E0028DF2A /* Products */,
@@ -361,6 +365,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				INFOPLIST_FILE = DevinTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -371,6 +376,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				INFOPLIST_FILE = DevinTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,6 +436,7 @@
 				03ACD2A11A1A0C6F0028DF2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03ACD2A21A1A0C6F0028DF2A /* Build configuration list for PBXNativeTarget "DevinTestTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +445,7 @@
 				03ACD2A41A1A0C6F0028DF2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
